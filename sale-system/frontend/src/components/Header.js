@@ -11,9 +11,9 @@ export default function Header() {
                     <Navbar.Brand href="#home">TEST Sale-Sys</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#home"><i class="fa-sharp fa-solid fa-house"></i> Home </Nav.Link>
-                            <Nav.Link href="#login"><i class="fa-sharp fa-solid fa-user"></i> Login </Nav.Link>
+                        <Nav className="ms-auto">
+                            <Nav.Link href="#note"><i class="fa-sharp fa-solid fa-comments"></i> Note </Nav.Link>
+                            <Nav.Link href="#login"><i className="fa-sharp fa-solid fa-user"></i> Login </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
