@@ -12,8 +12,8 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#login">Login</Nav.Link>
+                            <Nav.Link href="#home"><i class="fa-sharp fa-solid fa-house"></i> Home </Nav.Link>
+                            <Nav.Link href="#login"><i class="fa-sharp fa-solid fa-user"></i> Login </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
