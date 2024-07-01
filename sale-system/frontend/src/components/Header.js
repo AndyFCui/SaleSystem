@@ -12,7 +12,7 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#note"><i class="fa-sharp fa-solid fa-comments"></i> Note </Nav.Link>
+                            <Nav.Link href="#message"><i class="fa-sharp fa-solid fa-comments"></i> Message </Nav.Link>
                             <Nav.Link href="#login"><i className="fa-sharp fa-solid fa-user"></i> Login </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
